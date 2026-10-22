@@ -4,7 +4,7 @@
 
 <img src="https://kernelsu.org/logo.png" style="width: 96px;" alt="logo">
 
-A kernel-based, jailbreak-revolved root solution for Samsung devices.
+A kernel-based, jailbreak-based root solution for Samsung devices.
 
 [![Latest release](https://img.shields.io/github/v/release/DaniTheSIllyFem/KaySU?label=Release&logo=github)](https://github.com/DaniTheSIllyFem/KaySU/releases/latest)
 [![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
@@ -20,18 +20,16 @@ A kernel-based, jailbreak-revolved root solution for Samsung devices.
 
 ## Compatibility state
 
-KaySU officially supports Android GKI 2.0 devices (kernel 5.10+). Older kernels (4.14+) are also supported, but the kernel will need to be built manually.
+KaySU ONLY supports Samsung GKI 2.0 devices (kernel 5.10-6.6), Older kernels (4.14+) aren't supported, as this is a Jailbreak-based manager meant to be used in part with [DirtyFrag.](https://github.com/mitschud/DirtyFrag)
 
-With this, WSA, ChromeOS, and container-based Android are all supported.
-
-Currently, the `arm64-v8a` and `x86_64` architectures are supported.
-
-> [!CAUTION]
-> Recent kernel versions have implemented a breaking change causing KaySU to fail and potentially trigger a kernel panic on `x86_64`! Check the website for more info!
+Currently, the `arm64-v8a` ~~and `x86_64`~~ architectures are supported.
 
 ## Usage
 
-- [Installation](https://kernelsu.org/guide/installation.html)
+> [!NOTE]
+> In the installation guide, install KaySU instead of diabl0w's.
+
+- [Installation](https://github.com/mitschud/DirtyFrag/blob/master/README.md)
 - [How to build](https://kernelsu.org/guide/how-to-build.html)
 - [Official website](https://kernelsu.org/)
 
