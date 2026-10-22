@@ -1,16 +1,16 @@
 **English** | [Español](README_ES.md) | [简体中文](README_CN.md) | [繁體中文](README_TW.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Polski](README_PL.md) | [Português (Brasil)](README_PT-BR.md) | [Türkçe](README_TR.md) | [Русский](README_RU.md) | [Tiếng Việt](README_VI.md) | [Indonesia](README_ID.md) | [עברית](README_IW.md) | [हिंदी](README_IN.md) | [Italiano](README_IT.md)
 
-# KernelSU
+# KaySU
 
 <img src="https://kernelsu.org/logo.png" style="width: 96px;" alt="logo">
 
 A kernel-based root solution for Android devices.
 
-[![Latest release](https://img.shields.io/github/v/release/tiann/KernelSU?label=Release&logo=github)](https://github.com/tiann/KernelSU/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/DaniTheSIllyFem/KaySU?label=Release&logo=github)](https://github.com/DaniTheSIllyFem/KaySU/releases/latest)
 [![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
-[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KernelSU)
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KaySU)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-orange.svg?logo=gnu)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![GitHub License](https://img.shields.io/github/license/tiann/KernelSU?logo=gnu)](/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/DaniTheSIllyFem/KaySU?logo=gnu)](/LICENSE)
 
 ## Features
 
@@ -20,14 +20,14 @@ A kernel-based root solution for Android devices.
 
 ## Compatibility state
 
-KernelSU officially supports Android GKI 2.0 devices (kernel 5.10+). Older kernels (4.14+) are also supported, but the kernel will need to be built manually.
+KaySU officially supports Android GKI 2.0 devices (kernel 5.10+). Older kernels (4.14+) are also supported, but the kernel will need to be built manually.
 
 With this, WSA, ChromeOS, and container-based Android are all supported.
 
 Currently, the `arm64-v8a` and `x86_64` architectures are supported.
 
 > [!CAUTION]
-> Recent kernel versions have implemented a breaking change causing KernelSU to fail and potentially trigger a kernel panic on `x86_64`! Check the website for more info!
+> Recent kernel versions have implemented a breaking change causing KaySU to fail and potentially trigger a kernel panic on `x86_64`! Check the website for more info!
 
 ## Usage
 
@@ -37,17 +37,17 @@ Currently, the `arm64-v8a` and `x86_64` architectures are supported.
 
 ## Translation
 
-To help translate KernelSU, we no longer accept translation contributions via Weblate. All translations are now handled using LLMs.
+To help translate KaySU, we no longer accept translation contributions via Weblate. All translations are now handled using LLMs.
 
 If you would like to add support for a new language, feel free to open a PR. Please note that modifications to existing English and Chinese translations are not accepted.
 
 ## Discussion
 
-- Telegram: [@KernelSU](https://t.me/KernelSU)
+- Telegram: [@KaySU](https://t.me/KaySU)
 
 ## Security
 
-For information on reporting security vulnerabilities in KernelSU, see [SECURITY.md](/SECURITY.md).
+For information on reporting security vulnerabilities in KaySU, see [SECURITY.md](/SECURITY.md).
 
 ## License
 
@@ -56,6 +56,8 @@ For information on reporting security vulnerabilities in KernelSU, see [SECURITY
 
 ## Credits
 
+- [KernelSU](https://github.com/tiann/KernelSU): The ORIGINAL KernelSU.
+- [KernelSU-samsung](https://github.com/diabl0w/KernelSU): Where KaySU originated from.
 - [Kernel-Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser/about/): The KernelSU idea.
 - [Magisk](https://github.com/topjohnwu/Magisk): The powerful root tool.
 - [genuine](https://github.com/brevent/genuine/): APK v2 signature validation.
