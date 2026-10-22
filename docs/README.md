@@ -4,7 +4,7 @@
 
 <img src="https://kernelsu.org/logo.png" style="width: 96px;" alt="logo">
 
-A kernel-based root solution for Android devices.
+A kernel-based, jailbreak-revolved root solution for Samsung devices.
 
 [![Latest release](https://img.shields.io/github/v/release/DaniTheSIllyFem/KaySU?label=Release&logo=github)](https://github.com/DaniTheSIllyFem/KaySU/releases/latest)
 [![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
