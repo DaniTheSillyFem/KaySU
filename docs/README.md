@@ -8,7 +8,7 @@ A kernel-based, jailbreak-revolved root solution for Samsung devices.
 
 [![Latest release](https://img.shields.io/github/v/release/DaniTheSIllyFem/KaySU?label=Release&logo=github)](https://github.com/DaniTheSIllyFem/KaySU/releases/latest)
 [![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
-[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KaySU)
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KaySU_manager)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-orange.svg?logo=gnu)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![GitHub License](https://img.shields.io/github/license/DaniTheSIllyFem/KaySU?logo=gnu)](/LICENSE)
 
@@ -43,7 +43,7 @@ If you would like to add support for a new language, feel free to open a PR. Ple
 
 ## Discussion
 
-- Telegram: [@KaySU](https://t.me/KaySU)
+- Telegram: [@KaySU_manager](https://t.me/KaySU_manager)
 
 ## Security
 
