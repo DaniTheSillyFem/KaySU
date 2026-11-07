@@ -61,9 +61,17 @@ jobs:
       - name: Display structure of downloaded files
         run: ls -R
 
-      - name: release
+      - name: Prepare release name
+        id: release_name
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          VERSION="${TAG#samsung-}"
+          echo "name=KaySU ${VERSION}" >> "$GITHUB_OUTPUT"
+
+      - name: Release
         uses: softprops/action-gh-release@v3
         with:
+          name: ${{ steps.release_name.outputs.name }}
           files: |
             manager/*.apk
             lkm/lkm-*_kernelsu.ko
